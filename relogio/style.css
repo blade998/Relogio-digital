@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(215deg, #48578d 0, #111729 50%, #000000 100%);
+}
+.container{
+    
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(215deg, #48578d 0, #111729 50%, #000000 100%);
+}
+.bodytemp {
+    display: flex;
+    background-image: linear-gradient(215deg, #475489 0, #101526 50%, #000000 100%);
+    height: 50%;
+    width: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.relogio {
+    background-image: linear-gradient(215deg, #182a2a 0, #152120 16.67%, #0e1514 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    justify-items: center;
+    font-size: larger;
+    font-size: 15vh;
+   border-radius: 30px 30px;
+    
+}
+@media (max-width:550px) {
+    .relogio{
+        font-size: small;
+        font-size: 4vh;
+    }
+}
